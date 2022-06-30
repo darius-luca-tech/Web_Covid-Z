@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from marveltheme.com/tf/html/covira/dist/outbreak-news.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Nov 2020 22:19:04 GMT -->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Template meta tags -->
+    <meta name="description" content="coronavirus prevention and awareness template">
+    <meta name="keywords" content="Coronavirus,COVID-19,Medical,Prevention,Awareness,Live Report">
+    <meta name="author" content="Marvel Theme">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../static/img/logo/favicon.png">
+
+    <!-- Title -->
+    <title>Covira - coronavirus prevention and awareness template</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+
+    <!-- Icon Font -->
+    <link rel="stylesheet" href="../static/css/line-awesome.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="../static/css/aos.css">
+
+    <!-- DataTable -->
+    <link rel="stylesheet" type="text/css"
+        href="../../../../../cdn.datatables.net/v/bs4/dt-1.10.21/fh-3.1.7/r-2.2.4/sc-2.0.2/datatables.min.css" />
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="../static/css/style.css">
+
+    <!-- Custom CSS for end users -->
+    <link rel="stylesheet" href="../static/css/custom.css">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader-wrapper">
+        <div class="preloader-wave-effect"></div>
+        <div class="preloader-text">Loading</div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../static/img/logo/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="las la-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
+                            aria-expanded="false">Home</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="index.html">Home one</a>
+                            <a class="dropdown-item" href="index-2.html">Home one dark</a>
+                            <a class="dropdown-item" href="index-3.html">Home two</a>
+                            <a class="dropdown-item" href="index-4.html">Home two dark</a>
+                            <a class="dropdown-item" href="index-5.html">Home three</a>
+                            <a class="dropdown-item" href="index-6.html">Home three dark</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-scroll>COVID-19</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#transmission" data-scroll>Spread</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#symptoms" data-scroll>Symptoms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#prevention" data-scroll>Prevention</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
+                            aria-expanded="false">Pages</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="blog.html">Blog</a>
+                            <a class="dropdown-item" href="article.html">Article</a>
+                            <a class="dropdown-item" href="contact.html">Contact</a>
+                            <a class="dropdown-item" href="outbreak-news.html">Outbreak news</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog" data-scroll>Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-scroll>Contact</a>
+                    </li>
+                </ul>
+                <div class="navbar-cta d-none d-lg-block">
+                    <a href="#contact" class="btn btn-primary" data-scroll>
+                        <i class="las la-headset"></i>
+                        <span>Online Help</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb-section pt-lg pb-0 s-bg-light">
+        <div class="container">
+            <div class="page-header text-center py-md">
+                <h1>Outbreak News</h1>
+            </div>
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Outbreak News</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Corona news -->
+    <section class="corona-updates-section style-2 mt-0 py-lg">
+        <div class="container">
+            <div class="corona-updates-inner">
+                <div class="section-header text-center mb-4 mb-md-5">
+                    <h2 class="mb-1">Covid-19 Coronavirus Pandemic</h2>
+                    <p class="update-date"><em><span>Live</span> - Updates on every 10 minutes</em></p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 statistics-card card-info" data-aos="fade-up">
+                        <div class="statistics-card-inner">
+                            <h3 class="data-header" id="totalCases"></h3>
+                            <p>Total cases</p>
+                            <img src="../static/img/shapes/1.png" alt="Image not found" class="img-fluid shape">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 statistics-card card-danger" data-aos="fade-up" data-aos-delay="50">
+                        <div class="statistics-card-inner">
+                            <h3 class="data-header" id="totalDeaths"></h3>
+                            <p>Total deaths</p>
+                            <img src="../static/img/shapes/1.png" alt="Image not found" class="img-fluid shape">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 statistics-card card-success" data-aos="fade-up" data-aos-delay="100">
+                        <div class="statistics-card-inner">
+                            <h3 class="data-header" id="totalRecovered"></h3>
+                            <p>Total recovered</p>
+                            <img src="../static/img/shapes/1.png" alt="Image not found" class="img-fluid shape">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 statistics-card card-warning" data-aos="fade-up" data-aos-delay="150">
+                        <div class="statistics-card-inner">
+                            <h3 class="data-header" id="newCases"></h3>
+                            <p>New cases</p>
+                            <img src="../static/img/shapes/1.png" alt="Image not found" class="img-fluid shape">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Corona country statistics -->
+    <section class="corona-country-stats-section pb-lg">
+        <div class="container">
+            <div class="section-header text-center mb-4 mb-md-5">
+                <h2 class="heading">Coronavirus Live Statistics</h2>
+            </div>
+            <table id="countries_stat" class="table table-striped table-hover country-stats-table">
+                <thead>
+                    <tr>
+                        <th>Country</th>
+                        <th>Total Cases</th>
+                        <th>Total Deaths</th>
+                        <th>Total Recovered</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </section>
+
+    <!-- Corona map -->
+    <div class="corona-map-section mt-0 pb-lg">
+        <div class="container">
+            <div class="corona-map">
+                <iframe style="width:100%" ; width="100%" height="100%" src="https://coronavirus.app/map?embed=true"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="text-center mx-auto mt-4 mt-md-5">
+                <a href="https://www.worldometers.info/coronavirus/" target="_blank" class="text-link">Check Live
+                    Situation Dashboard</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top s-bg-dark-blue py-md">
+            <div class="graphics">
+                <div class="graphic graphic-1">
+                    <img src="../static/img/shapes/1.png" alt="">
+                </div>
+                <div class="graphic graphic-2">
+                    <img src="../static/img/shapes/1.png" alt="">
+                </div>
+                <div class="graphic graphic-3">
+                    <img src="../static/img/shapes/1.png" alt="">
+                </div>
+                <div class="graphic graphic-4">
+                    <img src="../static/img/shapes/1.png" alt="">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 footer-widget order-1">
+                        <div class="footer-widget-inner">
+                            <a href="#" class="footer-logo">
+                                <img src="../static/img/logo/logo-white.png" alt="" class="img-fluid">
+                            </a>
+                       
+                            <ul class="social">
+                                <li>
+                                    <a href="#"><i class="lab la-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="lab la-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="lab la-linkedin-in"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="lab la-youtube"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 footer-widget order-3 order-lg-2 mt-5 mt-lg-0">
+                        <div class="footer-widget-inner">
+                            <h4 class="f-widget-title">Situation updates</h4>
+                            <ul>
+                                <li><a href="#">Disease outbreak news</a></li>
+                                <li><a href="#">COVID-19 situation dashboard</a></li>
+                                <li><a href="#">Coronavirus pandemic</a></li>
+                                <li><a href="#">Global situation dashboard</a></li>
+                                <li><a href="#">Youtube live situation reports</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 footer-widget order-4 order-lg-3 mt-5 mt-lg-0">
+                        <div class="footer-widget-inner">
+                            <h4 class="f-widget-title">Useful Links</h4>
+                            <ul>
+                                <li><a href="#">World Health Report</a></li>
+                                <li><a href="#">Corona Pandemic</a></li>
+                                <li><a href="blog.html">Latest News</a></li>
+                                <li><a href="#symptoms" data-scroll>Symptoms</a></li>
+                                <li><a href="#prevention" data-scroll>Prevention</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom s-bg-dark py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 mx-auto text-center">
+                        <div class="f-bottom-info">
+                            <h6 class="text-white">Copyright &copy; 2020 <a href="#">Marvel Theme</a>. All rights
+                                reserved.</h6>
+                            <p class="mb-0">All informations are collected from the World Health Organaization (WHO).
+                                <br>
+                                If you have any concerns please visit the respective website.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery first, then Bootstrap bundle JS, then others -->
+    <script src="../static/js/jquery-3.5.1.min.js"></script>
+    <script src="../static/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="../static/js/jquery-ui.min.js"></script>
+    <script src="../static/js/lottie-player.js"></script>
+    <script src="../static/js/corona-script.js"></script>
+    <script src="../static/js/aos.js"></script>
+    <script src="../static/js/simpleParallax.min.js"></script>
+    <script src="../static/js/parallax.min.js"></script>
+    <script type="text/javascript"
+        src="../../../../../cdn.datatables.net/v/bs4/dt-1.10.21/fh-3.1.7/r-2.2.4/sc-2.0.2/datatables.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhrdEzlfpnsnfq4MgU1e1CCsrvVx2d59s"></script>
+    <script src="../static/js/gmaps.js"></script>
+    <script src="../static/js/ajax-mail.js"></script>
+    <script src="../static//js/ajax-subscribe.js"></script>
+
+    <!-- Template JS -->
+    <script src="../static/js/scripts.js"></script>
+</body>
+
